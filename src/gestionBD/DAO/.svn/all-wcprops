@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/~dut2-2013-ps/!svn/ver/181/EdtV1/src/gestionBD/DAO
+END
+SeancesBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/~dut2-2013-ps/!svn/ver/124/EdtV1/src/gestionBD/DAO/SeancesBDD.java
+END
+FrisesBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/~dut2-2013-ps/!svn/ver/175/EdtV1/src/gestionBD/DAO/FrisesBDD.java
+END
+ActivitesBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/~dut2-2013-ps/!svn/ver/181/EdtV1/src/gestionBD/DAO/ActivitesBDD.java
+END
+ImagesBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/~dut2-2013-ps/!svn/ver/170/EdtV1/src/gestionBD/DAO/ImagesBDD.java
+END
+TagBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~dut2-2013-ps/!svn/ver/75/EdtV1/src/gestionBD/DAO/TagBDD.java
+END
+CompteBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/~dut2-2013-ps/!svn/ver/181/EdtV1/src/gestionBD/DAO/CompteBDD.java
+END
+MaBaseSQLite.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/~dut2-2013-ps/!svn/ver/181/EdtV1/src/gestionBD/DAO/MaBaseSQLite.java
+END

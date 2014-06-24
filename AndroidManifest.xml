@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edtv1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.example.edtv1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.edtv1.AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:parentActivityName="com.example.edtv1.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.edtv1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.edtv1.ConnexionActivity"
+            android:label="@string/title_activity_connexion" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.SelectAccountActivity"
+            android:label="@string/title_activity_comptes" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.example.edtv1.SelectActivityActivity"
+            android:label="@string/title_activity_activites" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.FrisesActivity"
+            android:label="@string/title_activity_frises" >
+        </activity>
+        <activity android:name="com.example.edtv1.SingleItemView" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.InfosActivite"
+            android:label="@string/title_activity_infos_activite" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.InfosComptes"
+            android:label="@string/title_activity_infos_comptes" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.FriseAffichageActivity"
+            android:label="Frise" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.CreationActiviteActivity"
+            android:label="@string/title_activity_creation_activite" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.CreationCompteActivity"
+            android:label="@string/title_activity_creation_compte" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.CreationAccountActivity"
+            android:label="@string/title_activity_creation_account" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.SelectFriseActivity"
+            android:label="@string/title_activity_select_frise" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.ModifyActiviteActivity"
+            android:label="@string/title_activity_modify_activite" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.ModifyAccountActivity"
+            android:label="@string/title_activity_modify_account" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.ModifyFriseActivity"
+            android:label="@string/title_activity_modify_frise" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.DemoImages"
+            android:label="@string/title_activity_demo_images" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.SelectImageActivity"
+            android:label="@string/title_activity_select_image" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.edtv1.CGUActivity"
+            android:label="@string/title_activity_cgu" >
+        </activity>
+    </application>
+
+</manifest>

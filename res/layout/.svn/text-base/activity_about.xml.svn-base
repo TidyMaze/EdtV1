@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollPolicy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@layout/background">
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+    
+    <TextView
+        android:id="@+id/about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/version" />
+
+    <TextView
+        android:id="@+id/about_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_version"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/author" />
+
+    <TextView
+        android:id="@+id/about_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_author"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/copyright" />
+    
+   
+     <Button
+        android:id="@+id/item_cgu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/about_copyright"
+        android:onClick="onClick"
+        android:background="#59c7e7"
+        android:textColor="#ffffff"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Conditions Générales d'Utilisation" />
+         
+     <Button
+        android:id="@+id/item_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/item_cgu"
+        android:onClick="onClick"
+        android:background="#59c7e7"
+        android:textColor="#ffffff"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/item_cgu"
+        android:layout_alignRight="@+id/item_cgu"
+        android:text="Politique de confidentialité" />
+         
+         <Button
+        android:id="@+id/send_bug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/item_policy"
+        android:onClick="onClick"
+        android:background="#59c7e7"
+        android:textColor="#ffffff"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/item_cgu"
+        android:layout_alignRight="@+id/item_cgu"
+        android:text="Retour de bugs" />
+         
+         <Button
+        android:id="@+id/item_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/send_bug"
+        android:onClick="onClick"
+        android:background="#59c7e7"
+        android:textColor="#ffffff"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/item_cgu"
+        android:layout_alignRight="@+id/item_cgu"
+        android:text="Manuel d'utilisation" />
+
+</RelativeLayout>
+</ScrollView>

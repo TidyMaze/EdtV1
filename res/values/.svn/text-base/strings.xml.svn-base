@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Ressources pour Main Activity -->
+    <string name="app_name">TED-APP\'</string>
+    <string name="action_settings">Administration</string>
+
+    <!-- Ressources pour Connexion Activity -->
+    <string name="title_activity_connexion">Connexion</string>
+    <string name="edit_message">Mot De Passe</string>
+    <string name="button_send">Connexion</string>
+
+    <!-- Ressources pour Admin Activity -->
+    <string name="title_activity_admin">Administration</string>
+    <string name="button_parametres">A propos</string>
+    <string name="button_comptes">Comptes</string>
+    <string name="button_activites">Activités</string>
+    <string name="button_frises">Frises</string>
+    <string name="title_activity_comptes">Comptes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activites">Activités</string>
+    <string name="title_activity_frises">Frises</string>
+    <string name="app_label">Recherche</string>
+    <string name="search_hint">Recherche</string>
+    <string name="title_activity_afficher_activite">AfficherActivite</string>
+    <string name="title_activity_infos_activite">Information sur l\'activité</string>
+    <string name="title_activity_infos_comptes">Information sur le compte</string>
+    <string name="search">Rechercher</string>
+    <string name="valider_creation">Valider la création</string>
+    <string name="valider_modif">Valider la modification</string>
+    <string name="nom_frise">Nom de la frise</string>
+    <string name="association_enfant">Nom de l\'enfant à associer</string>
+    <string name="modifier_frise">Modifier une frise</string>
+    <string name="supprimer_frise">Supprimer une frise</string>
+    <string name="ajouter_frise">Ajouter une frise</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="title_activity_creation_activite">Creation de l\' activité</string>
+    <string name="edit_name_activity">Nom de l\'activite</string>
+    <string name="button_add_picture">Associer une image</string>
+    <string name="title_activity_creation_compte">Création de compte</string>
+    <string name="title_activity_creation_account">Création de compte</string>
+    <string name="edit_nom_compte">Nom</string>
+    <string name="edit_prenom_compte">Prénom</string>
+    <string name="edit_date_compte">Naissance : jj-mm-aaaa</string>
+    <string name="title_activity_select_frise">Liste des frises</string>
+    <string name="modifier">Modifier</string>
+    <string name="title_activity_modify_activite">Edition de l\' activité</string>
+    <string name="title_activity_modify_account">Edition du compte</string>
+    <string name="button_ajouterSeance">Ajouter Séance</string>
+    <string name="title_activity_modify_frise">Edition de la frise</string>
+    <string name="image">image de l\'activité</string>
+    <string name="title_activity_demo_images">DemoImages</string>
+    <string name="title_activity_select_image">Galerie</string>
+    <string name="title_activity_modif_timer">Réglage du Timer</string>
+    <string name="title_activity_about">A propos ...</string>
+    <string name="version">Version 0.1.6.2</string>
+    <string name="copyright">Copyright IUT de Nantes 2013-2014</string>
+    <string name="author">Auteurs : Yann ROLLAND, Jordan SAVARY, Pierre-Olivier GILLIER</string>
+    <string name="see_cgu">Politique de Confidentialité</string>
+    <string name="title_activity_cgu">Confidentialité</string>
+    <string name="confiden_subtitle">Confidentialité - Protection des données à caractère personnel</string>
+    <string name="les_presentes_cgu">Les présentes Conditions Générales sont soumises aux dispositions de la loi n°78-17 
+        du 6 janvier 1987 relative à l\'informatique, aux fichiers et aux libertés.
+        </string>
+    <string name="charte">1) Charte sur la vie privée</string>
+    <string name="charte_content">La collecte des données à caractère personnel ne permet pas de faire apparaître, 
+        directement ou indirectement, les origines ethniques, les opinions politiques, philosophiques ou religieuses ou 
+        l\'appartenance syndicale des personnes, ni des données relatives à la santé ou à la vie sexuelle de celles-ci. \n
+        <pre>Les informations personnelles de l\'Utilisateur pourront être collectées de différentes façons. 
+        Le Prestataire pourra collecter les données à caractère personnel de l\'Utilisateur signalées comme étant obligatoires 
+        sur les formulaires de création de compte, à savoir le nom, prénom, la date de naissance,...</pre>
+        <pre>Le Prestataire pourra également collecter les informations relatives à l\'utilisation de l\'application par l\'Utilisateur, 
+        et notamment son comportement sur l\'application, ses activités, ...</pre>
+        <pre>Les données concernant l\'utilisateur sont collectées et traitées de manière loyale et licite pour des finalités déterminées, 
+        explicites et légitimes, sans être traitées ultérieurement de manière incompatible avec ces finalités, sous une forme permettant 
+        l\'identification des personnes concernées pendant une durée qui n\'excède pas la durée nécessaire aux finalités pour lesquelles 
+        elles sont collectées et traitées.</pre> </string>
+        <string name="image_de_la_ligne">image de la ligne</string>
+        <string name="image_du_bouton">Image du bouton</string>
+        <string name="afficher_texte">afficher texte</string>
+        <string name="bips_sonores">bips sonores</string>
+        <string name="compte_">Compte :</string>
+        <string name="compte">Compte</string>
+        <string name="modification_frise">Modification Frise</string>
+        <string name="nom_">Nom :</string>
+        <string name="une_image">une image</string>
+        <string name="image_du_boutton">image du boutton</string>
+    
+
+</resources>

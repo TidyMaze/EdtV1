@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@layout/background"
+    tools:context=".InfosComptes" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="#778899" >
+
+        <ImageView
+            android:id="@+id/imageCompte"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nomCompte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageCompte"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/imageCompte"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="TextView"
+            android:textColor="#D2B48C"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/prenomCompte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/nomCompte"
+            android:layout_below="@+id/nomCompte"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/imageCompte"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="TextView"
+            android:textColor="#D2B48C"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:id="@+id/naissanceCompte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageCompte"
+            android:layout_alignRight="@+id/prenomCompte"
+            android:layout_below="@+id/imageCompte"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#D2B48C"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
